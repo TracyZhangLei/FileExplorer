@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bx_bottom_msg_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/view_10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bxfile_choosed"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_12sp" />
+
+    <TextView
+        android:id="@+id/localefile_bottom_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_12sp" />
+
+    <Button
+        android:id="@+id/localefile_bottom_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/localefile_send_bg"
+        android:enabled="false"
+        android:onClick="onClick"
+        android:paddingTop="@dimen/view_6dp"
+        android:paddingBottom="@dimen/view_6dp"
+        android:paddingLeft="@dimen/view_6dp"
+        android:paddingRight="@dimen/view_6dp"
+        android:textColor="@color/localefile_send_color"
+        android:textSize="@dimen/text_14sp" />
+
+</LinearLayout>

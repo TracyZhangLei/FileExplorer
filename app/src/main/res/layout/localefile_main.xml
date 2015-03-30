@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bind_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:id="@+id/localefile_picture"
+                style="@style/localeFileMainItemStyle"
+                android:background="@drawable/selector_tab_up"
+                android:onClick="onClick" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_file_icon_picture" />
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/bxfile_image" />
+
+                <TextView
+                    android:id="@+id/localefile_pic_cnt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/darkGray"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_arrow_right_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/localefile_music"
+                style="@style/localeFileMainItemStyle"
+                android:background="@drawable/selector_tab_middle"
+                android:onClick="onClick" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_file_icon_music" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/bxfile_music" />
+                
+                <TextView
+                    android:id="@+id/localefile_music_cnt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/darkGray"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_arrow_right_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/localefile_video"
+                style="@style/localeFileMainItemStyle"
+                android:background="@drawable/selector_tab_down"
+                android:onClick="onClick" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_file_icon_video" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/bxfile_video" />
+                
+                 <TextView
+                    android:id="@+id/localefile_video_cnt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/darkGray"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_arrow_right_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/localefile_download"
+                style="@style/localeFileMainItemStyle"
+                android:layout_marginTop="@dimen/view_20dp"
+                android:background="@drawable/selector_tab_up"
+                android:onClick="onClick" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_file_icon_download" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/bxfile_download" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_arrow_right_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/localefile_ram"
+                style="@style/localeFileMainItemStyle"
+                android:background="@drawable/selector_tab_middle"
+                android:onClick="onClick" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_file_icon_ram" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/bxfile_ram" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_arrow_right_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/localefile_sdcard"
+                style="@style/localeFileMainItemStyle"
+                android:background="@drawable/selector_tab_down"
+                android:onClick="onClick" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_file_icon_sdcard" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/bxfile_sdcard" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_arrow_right_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/localefile_sdcard2"
+                style="@style/localeFileMainItemStyle"
+                android:background="@drawable/selector_tab_middle"
+                android:onClick="onClick"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_file_icon_sdcard" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/bxfile_sdcard" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_arrow_right_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/localefile_extSdcard"
+                style="@style/localeFileMainItemStyle"
+                android:background="@drawable/selector_tab_down"
+                android:onClick="onClick"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_file_icon_sdcard" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/bxfile_extsdcard" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bxfile_arrow_right_normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/localfile_bottom" />
+
+</LinearLayout>

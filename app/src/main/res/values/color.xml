@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="half_transparent">#33000000</color>
+	<color name="transparent">#00000000</color>
+    <color name="nav_textpass">#4db0ec</color>
+
+    <!-- 列表框分隔栏颜色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#f0f0f0</color>
+    <color name="darkGray">#bebebe</color>
+    <color name="lightBlue">#009CFF</color>
+    <color name="blue">#009CFF</color>
+
+    <!-- 联系人相关颜色 -->
+    <color name="contact_gray">#55bebebe</color>
+    <color name="contact_blue">#00bfff</color>
+    <color name="contact_green">#9acd32</color>
+    
+    <color name="dlg_separate_line_color">#ffadba88</color>
+    
+    <!-- 紫色 -->
+    <color name="purple">#2c7ca0</color>
+    <!-- 红色 -->
+    <color name="red">#990000</color>
+    <color name="timeColor">#999999</color>
+    <!-- 不可用颜色 -->
+    <color name="disable">#88cfcfcf</color>
+    
+    <!-- 绑定背景色 -->
+    <color name="bind_bg">#f1f1f1</color>
+    <!-- 黄色虚框文字颜色 -->
+    <color name="msgbtn_txtcolor">#c19151</color>
+    
+    <!-- 通讯录dep choose bg -->
+    <color name="dep_item_choose_txt">#FFFFFF</color>
+    <color name="dep_item_unchoose_txt">#38657C</color>
+    <color name="dep_item_choose">#F39035</color>
+    <color name="dep_item_unchoose">#00000000</color>
+    
+    <color name="notice_border">#a7a7a7</color>
+    <color name="fileexplorer_selected">#e9e9e9</color>
+    <color name="bx_tab_selected">#2ebfec</color>
+    <color name="teacher_name_color">#2c7ca0</color>
+    <color name="course_detail_title_color">#FF7A00</color>
+    <color name="notice_tab_unchoosed">#8f8f8f</color>
+    <color name="et_hint_color">#878787</color>
+    
+    <color name="smsbg_color">#e6e6e6</color>
+
+</resources>

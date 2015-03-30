@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/dirRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fileexplorer_item_bg"
+        android:padding="@dimen/view_10dp"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/dirIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bxfile_file_dir" />
+
+        <TextView
+            android:id="@+id/dirName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/view_10dp"
+            android:layout_toRightOf="@id/dirIcon"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_12sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/bxfile_arrow_right_normal" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fileLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fileexplorer_item_bg"
+        android:descendantFocusability="blocksDescendants"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/view_10dp"
+        android:visibility="gone" >
+
+        <CheckBox
+            android:id="@+id/fileCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/localefile_cb_bg"
+            android:button="@null" />
+
+        <ImageView
+            android:id="@+id/fileType"
+            android:layout_width="@dimen/view_36dp"
+            android:layout_height="@dimen/view_36dp"
+            android:layout_marginLeft="@dimen/view_8dp"
+            android:scaleType="centerCrop"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/view_8dp" >
+
+            <TextView
+                android:id="@+id/fileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/view_6dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_14sp" />
+
+            <TextView
+                android:id="@+id/fileSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fileName"
+                android:textColor="@color/darkGray"
+                android:textSize="@dimen/text_10sp" />
+
+            <TextView
+                android:id="@+id/fileModifyDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fileName"
+                android:layout_marginLeft="@dimen/view_4dp"
+                android:layout_toRightOf="@id/fileSize"
+                android:textColor="@color/darkGray"
+                android:textSize="@dimen/text_10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

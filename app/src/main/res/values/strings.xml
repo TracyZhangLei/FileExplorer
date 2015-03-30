@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TracyFileExplorer</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="cancel">取消</string>
+    <!-- 本地文件系统 -->
+    <string name="localeFile">本地文件</string>
+    <string name="curCatagoryNoFiles">该分类没有文件</string>
+    <string name="curDirNoChilds">当前文件夹没有文件</string>
+    <string name="bxfile_download">已下载文件</string>
+    <string name="bxfile_ram">手机内存</string>
+    <string name="bxfile_sdcard">SD卡内存</string>
+    <string name="bxfile_extsdcard">扩展卡内存</string>
+    <string name="bxfile_image">图片</string>
+    <string name="bxfile_music">音乐</string>
+    <string name="bxfile_video">视频</string>
+    <string name="bxfile_media_cnt">(%1$s)</string>
+    <string name="bxfile_choosed">已选</string>
+    <string name="bxfile_choosedCnt">发送(%1$s)</string>
+    <string name="fileViewer">文件查看</string>
+    <string name="fileReSend">重新发送</string>
+    <string name="openWithOtherApp">用其他应用打开</string>
+    <string name="send">发送</string>
+    <string name="download">下载</string>
+    <string name="attach_open_err">文件打开失败</string>
+    <string name="SDCardNotMounted">SDCard未加载</string>
+    <string name="maxFileSizeWarn">文件大小超出了限制，请重选</string>
+    <string name="maxFileCntWarn">文件个数超出了限制，请重选</string>
+
+</resources>

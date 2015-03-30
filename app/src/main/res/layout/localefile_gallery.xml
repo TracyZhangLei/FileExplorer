@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bind_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/emptyView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableTop="@drawable/bxfile_file_no_file_record"
+            android:text="@string/curDirNoChilds"
+            android:textColor="@color/darkGray"
+            android:visibility="gone" />
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnWidth="70dp"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/view_8dp"
+            android:listSelector="@color/transparent"
+            android:numColumns="4"
+            android:padding="@dimen/view_8dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/view_8dp" />
+    </RelativeLayout>
+
+    <include layout="@layout/localfile_bottom" />
+
+</LinearLayout>

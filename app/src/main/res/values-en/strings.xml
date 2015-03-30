@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TracyFileExplorer</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="cancel">Cancel</string>
+    <string name="localeFile">TracyFileExplorer</string>
+    <string name="curCatagoryNoFiles">No files</string>
+    <string name="curDirNoChilds">No Files</string>
+    <string name="bxfile_download">Downloaded</string>
+    <string name="bxfile_ram">Root</string>
+    <string name="bxfile_sdcard">Sdcard</string>
+    <string name="bxfile_extsdcard">ExtSdcard</string>
+    <string name="bxfile_image">Photo</string>
+    <string name="bxfile_music">Music</string>
+    <string name="bxfile_video">Video</string>
+    <string name="bxfile_media_cnt">(%1$s)</string>
+    <string name="bxfile_choosed">Choosed</string>
+    <string name="bxfile_choosedCnt">Send(%1$s)</string>
+    <string name="fileViewer">File Viewer</string>
+    <string name="fileReSend">Resend</string>
+    <string name="openWithOtherApp">Open by other app</string>
+    <string name="send">Send</string>
+    <string name="download">Download</string>
+    <string name="attach_open_err">File open failed</string>
+    <string name="SDCardNotMounted">SDCard not mounted</string>
+    <string name="maxFileSizeWarn">File size is too large</string>
+    <string name="maxFileCntWarn">Chosen count is over limit</string>
+
+</resources>

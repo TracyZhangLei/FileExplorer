@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- 返回按钮样式 -->
+    <style name="backStyle">
+        <item name="android:layout_width">@dimen/title_btn_w</item>
+        <item name="android:layout_height">@dimen/title_btn_h</item>
+        <item name="android:background">@drawable/selector_back</item>
+        <item name="android:layout_marginLeft">@dimen/view_6dp</item>
+    </style>
+
+    <!-- 下一步按钮样式 -->
+    <style name="rightBtnStyle">
+        <item name="android:layout_width">@dimen/title_btn_w</item>
+        <item name="android:layout_height">@dimen/title_btn_h</item>
+        <item name="android:background">@drawable/next_btn</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_14sp</item>
+        <item name="android:layout_marginRight">@dimen/view_6dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- 下一步按钮样式
+    <style name="nextStyle" parent="@style/rightBtnStyle">
+        <item name="android:text">@string/next</item>
+    </style>
+    -->
+
+    <!-- header样式 -->
+    <style name="headerStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/view_50dp</item>
+        <item name="android:background">@drawable/title_bg</item>
+    </style>
+
+    <!-- 完成按钮样式 -->
+    <style name="finishStyle" parent="@style/rightBtnStyle">
+    </style>
+    <!-- 标题样式 -->
+    <style name="titleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- 本地文件 itemStyle -->
+    <style name="localeFileMainItemStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/view_8dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>
