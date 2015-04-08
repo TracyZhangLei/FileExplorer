@@ -2,11 +2,25 @@
 <items version="2" >
 
     <item
+        jar="/Users/tracy/Desktop/FileExplorer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/tracy/Desktop/FileExplorer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-86f9eb653777137c85ddc9f990946e315e055273.jar" />
+    </item>
+    <item
         jar="/Users/tracy/tools/adt-bundle-mac/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/tracy/git/FileExplorer/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-90805d546155a304f3913a5a066918b9a8d551ba.jar" />
+        <dex dex="/Users/tracy/Desktop/FileExplorer/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-90805d546155a304f3913a5a066918b9a8d551ba.jar" />
+    </item>
+    <item
+        jar="/Users/tracy/Desktop/FileExplorer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/tracy/Desktop/FileExplorer/app/build/intermediates/pre-dexed/debug/classes-a5aca224a5d504857d9625855709a492f0a98d0a.jar" />
     </item>
     <item
         jar="/Users/tracy/git/FileExplorer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
@@ -14,6 +28,13 @@
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
         <dex dex="/Users/tracy/git/FileExplorer/app/build/intermediates/pre-dexed/debug/classes-c80033e4924c94268876a64204daf9fd512f5a8a.jar" />
+    </item>
+    <item
+        jar="/Users/tracy/Desktop/FileExplorer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/tracy/Desktop/FileExplorer/app/build/intermediates/pre-dexed/debug/classes-a818d2896b811e4aec526ed41422aa0119c667a6.jar" />
     </item>
     <item
         jar="/Users/tracy/git/FileExplorer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
